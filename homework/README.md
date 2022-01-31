@@ -1,8 +1,10 @@
 Problems for Homework #1: 
 
 
-What is the difference between an operating system and middleware?
-What is the relationship between threads and processes?
+-What is the difference between an operating system and middleware?
+
+- What is the relationship between threads and processes?
+- 
 Of all the topics previewed in chapter one of the text book, which one are you most looking forward to learning more about? Why?
 Suppose thread A goes through a loop 100 times, each time performing one disk I/O operation, taking 10 milliseconds, and then some computation, taking 1 millisecond. While each 10-millisecond disk operation is in progress, thread A cannot make any use of the processor. Thread B runs for 1 second, purely in the processor, with no I/O. One millisecond of processor time is spent each time the processor switches threads; other than this switching cost, there is no problem with the processor working on thread B during one of thread A's I/O operations. [The processor and disk drive do not contend for memory access bandwidth, for example.]
 Suppose the processor and disk work purely on thread A until its completion, and then the processor switches to thread B and runs all of that thread. What will the total elapsed time be?

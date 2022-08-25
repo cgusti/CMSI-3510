@@ -1,1 +1,1 @@
-Wrote a branching dialogue program in C and inserted this new module into the Linux kernel to simulate a "conversation" in Terminal. 
+Wrote a branching dialogue program in C and inserted this new module into the Linux kernel to simulate a "conversation" in Terminal. This was done by writing a decision tree program and inserting a new module from within the linux kernel
